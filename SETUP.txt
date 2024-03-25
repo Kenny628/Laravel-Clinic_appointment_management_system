@@ -1,0 +1,27 @@
+//=====GO TO VISUAL STUDIO CODE=====
+1. PRESS CLONE GIT REPOSITORY
+2. PASTE THE URL
+
+//=====ENTER IN YOUR COMMAND LINE=====
+1. composer install
+2. Setup database (refer to setup database step)
+3. php artisan key:generate
+4. php artisan serve
+5. php artisan migrate
+6. php artisan db:seed
+
+
+//====DATABASE SETUP====
+1. create new .env file 
+2. Copy all content from .env.example into the newly created .env file
+3. Change the database name to *TBC later on* in the .env file
+4. Go to localhost(mysql) create a database with the name *TBC later on*
+
+//====DATABASE PROBLEM====
+1.run 'php artisan migrate:fresh'
+2.run 'php artisan db:seed'
+
+
+
+
+//====
